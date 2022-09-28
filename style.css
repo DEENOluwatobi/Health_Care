@@ -282,8 +282,8 @@ span{
     margin: 15px 0;
     cursor: pointer;
 }
-/* Our team Section */
-.team{
+/* Our Objective Section */
+.obj{
     background-image: url('Img/mission.jpg');
     width: 100%;
     height: 70vh;
@@ -294,13 +294,73 @@ span{
     justify-content: flex-end;
     align-items: center;
 }
-.t-con{
+.obj-con{
     width: 50%;
 }
-.t-con h1{
+.obj-con h1{
     font-size: 4em;
     font-weight: bold;
 }
-.t-con p{
+.obj-con p{
     padding: 20px 0;
-}    
+}   
+ /*Our team section  */
+ .team{
+    padding: 20px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("Img/team-back.jpg");
+    background-size: cover;
+ }
+ .team h1{
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    padding: 10px 0;
+ }
+ .team h1 span{
+    color: rgb(24, 238, 149)
+ }
+ .team-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    padding: 20px 0;
+ }
+ .t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+ .tcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: ;
+    padding: 20px 0;
+
+ }
+ .tcon img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(18, 200, 124);
+    border-radius: 50%;
+ }
+ .tcon h4{
+    color: white;
+    font-size: .9em;
+    letter-spacing: 1px;
+ }
+ .tcon p{
+    color: rgb(24, 238, 149);
+    font-size: 1em;
+ }
