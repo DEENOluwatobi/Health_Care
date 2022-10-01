@@ -345,20 +345,21 @@ span{
     align-items: center;
     flex-direction: column;
     width: 25%;
-    height: ;
     padding: 20px 0;
 
  }
  .tcon img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 2px solid rgb(18, 200, 124);
-    border-radius: 50%;
+    border-radius: 20px 50px;
+    box-shadow: 2px 2px 10px rgb(24, 238, 149);
  }
  .tcon h4{
     color: white;
     font-size: .9em;
     letter-spacing: 1px;
+    margin-top: 10px;
  }
  .tcon p{
     color: rgb(24, 238, 149);
