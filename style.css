@@ -313,7 +313,7 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: rgb(237, 234, 234);
     background-size: cover;
  }
  .team h1{
@@ -366,4 +366,106 @@ span{
  .tcon p{
     color: rgb(20, 175, 110);
     font-size: 1em;
+ }
+ /* DEPTS SECTION */
+ .depts{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 150px;
+ }
+ .d-con{
+    margin: 10px 0;
+ }
+ .depts h2{
+    color: rgb(50, 67, 63);
+    letter-spacing: .5px;
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(111, 114, 114);
+ }
+ .d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+ }
+ .d-sect{
+    padding: 20px 0;
+ }
+ .d h4{
+    font-size: .9em;
+    color: rgb(47, 46, 46);
+ }
+ .d p{
+    font-size: .7em;
+    color: rgb(88, 86, 86);
+ }
+ /* FOOTER */
+ footer{
+    background-color:rgb(2, 21, 15);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 100px;
+ }
+ footer h4{
+    color: rgb(8, 159, 116);
+    font-size: 1.4em;
+    padding-bottom: 30px;
+ }
+ footer p{
+    font-size: .9em;
+    color: whitesmoke;
+ }
+ .foot1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+ }
+ .s-icons{
+    display: flex;
+    flex-direction: column;
+ }
+ .s-icons i{
+    display: flex;
+    gap: 20px;
+    font-size: 1.1em;
+    padding: 10px 0;
+    font-family: 'Poppins';
+ }
+ .foot2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+ }
+
+ .app-con{
+    padding: 20px 150px;
+    background-color: rgba(4, 99, 82, 0.57);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ .app h1{
+    font-size: 3em;
+    color: white;
+ }
+ .app-form{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+ }
+ .app-form input{
+    border-radius: 10px;
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    background-color: whitesmoke;
+    border: 1px solid rgb(2, 29, 31);
+    margin: 10px 20px;
  }
